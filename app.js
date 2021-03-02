@@ -3,5 +3,8 @@ const btn = document.querySelector("#btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener('click', function () {
-  
-})
+  // We want to get a random number between 0 - 3
+  const randomNumber = 2;
+  document.body.style.backgroundColor = color[randomNumber];
+  color.textContent = colors[randomNumber]
+});
