@@ -5,8 +5,17 @@ const btn = document.querySelector('#btn');
 const color = document.querySelector('.color');
 
 btn.addEventListener('click', function () {
-  let hexColr = '#';
-  for(let i = 0; i < 6, i++){
-    hexColor += hex[0]
+  let hexColor = '#';
+  for(let i = 0; i < 6; i++) {
+    hexColor += hex[getRandomNumber()];
   }
+  color.textContent = hexColor;
+  document.body.style.backgroundColor = hexColor;
 });
+
+// Add the random number function from the hex
+
+function getRandomNumber() {
+  return Math.floor(Math.random() * hex.length);
+  
+}
