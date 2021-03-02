@@ -13,4 +13,4 @@ console.log(randomNumber);
 
 function getRandomNumber() {
   return Math.floor(Math.random() * colors.length);
-}
+};
