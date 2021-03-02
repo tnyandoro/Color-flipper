@@ -1,6 +1,6 @@
 # Color-flipper
 
-> This is a Dynamic clock App Developed in Vanilla JavaScript. The main objective for this project is to learn about basic JavaScript concepts, functions, arrays and objects.
+> This is a Dynamic color random generator App Developed in Vanilla JavaScript. The main objective for this project is to learn about basic JavaScript concepts, functions, arrays and objects.
 
 ### Screenshots
 
@@ -49,7 +49,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- The Bootstrap theme credit goes to [Brad Traversy](https://bradtraversy.com/)
+- The Bootstrap theme credit goes to [Coding Addict](https://bradtraversy.com/)
 - This project was inspired by the [Microverse](https://www.microverse.org/) for the  program
 
 
