@@ -15,7 +15,7 @@ btn.addEventListener('click', function () {
 
 // Add the random number function from the hex
 
-function getRandomNumber() {
+const getRandomNumber = () => {
   return Math.floor(Math.random() * hex.length);
   
-}
+};
